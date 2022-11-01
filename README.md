@@ -12,7 +12,12 @@
 ``` git commit -m "your message" ```
 
 5. Push your changes to the repository
-``` git push origin master ```
+``` git push```
 
 6. Keep your repository updated
-``` git pull origin master ```
+``` git pull ```
+
+## Note 
+
+- Put comment on your code so that it is easy to understand
+ 

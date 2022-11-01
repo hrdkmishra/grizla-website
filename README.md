@@ -3,7 +3,7 @@
 1. Download git bash from [here](https://git-scm.com/downloads)
 
 2. Clone the repository 
-```https://github.com/hrdkmishra/grizla-website.git ```
+```git clone https://github.com/hrdkmishra/grizla-website.git ```
 
 3. Add your changes to the repository
 ``` git add "file name" ```

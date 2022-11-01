@@ -6,7 +6,7 @@
 ```https://github.com/hrdkmishra/grizla-website.git ```
 
 3. Add your changes to the repository
-``` git add . ```
+``` git add "file name" ```
 
 4. Commit your changes
 ``` git commit -m "your message" ```

@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- fontawsome link -->
+
+  <script src="https://kit.fontawesome.com/f1fe65a302.js" crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- web icon -->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <title>Grizla Technologies</title>
 </head>
+
 <body>
-    
+
+  <!-- ===========navbar======================= -->
+  <header>
+    <a href="#" class="logo">GR<span>i</span>ZLA</a>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Project</a>
+      <a href="#">Team</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+
+  <!-- ======================slider Section=============================== -->
+
+  <section class="main">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="https://img.freepik.com/free-vector/young-person-playing-with-computer_52683-19082.jpg?w=996&t=st=1667304075~exp=1667304675~hmac=a49739c0f6c76043fc1b24c7cbb5759b585c5366d4d4d9e6ebe603764b9f5c43"
+          style="width: 100%" />
+        <div class="text">
+          <h1 class="text_head">Welcome To <span>Grizla</span> </h1>
+          <h1 class="text_head">Technologies</h1>
+          <div class="slider_btn">
+            <a href="" class="aboutus_btn">About Us</a>
+            <a href="" class="contactus_btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="https://img.freepik.com/free-vector/space-illustration-night-alien-fantasy-landscape_33099-1873.jpg?t=st=1667301305~exp=1667301905~hmac=38fbd2fb26fb36d6cf526c636f5db4c4eab8afcfd3850bb1fc427ca1b06859f0"
+          style="width: 100%" />
+        <div class="text">
+          <h1 class="text_head">Welcome To <span>Grizla</span> </h1>
+          <h1 class="text_head">Technologies</h1>
+          <div class="slider_btn">
+            <a href="" class="aboutus_btn">About Us</a>
+            <a href="" class="contactus_btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="https://img.freepik.com/premium-photo/digital-data-mining-machine-learning-technology-design-computer-brain_31965-11308.jpg"
+          style="width: 100%" />
+        <div class="text">
+          <h1 class="text_head">Welcome To <span>Grizla</span> </h1>
+          <h1 class="text_head">Technologies</h1>
+          <div class="slider_btn">
+            <a href="" class="aboutus_btn">About Us</a>
+            <a href="" class="contactus_btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="https://img.freepik.com/free-vector/ghosts-cemetery-old-graveyard-dark-night_33099-2440.jpg?t=st=1667305800~exp=1667306400~hmac=688e88320af0ff7be5608c7019ec7c33b6bf4386af2ca5631bc2562c4c3ff7a6"
+          style="width: 100%" />
+        <div class="text">
+          <h1 class="text_head">Welcome To <span>Grizla</span> </h1>
+          <h1 class="text_head">Technologies</h1>
+          <div class="slider_btn">
+            <a href="" class="aboutus_btn">About Us</a>
+            <a href="" class="contactus_btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=996&t=st=1667306002~exp=1667306602~hmac=63246226efcc798034d58a64b8d14726ae5f370d3d61fefb8d01c1d82bcb82aa"
+          style="width: 100%" />
+        <div class="text">
+          <h1 class="text_head">Welcome To <span>Grizla</span> </h1>
+          <h1 class="text_head">Technologies</h1>
+          <div class="slider_btn">
+            <a href="" class="aboutus_btn">About Us</a>
+            <a href="" class="contactus_btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="indicators" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================scripts========================================= -->
+
+  <script src="script.js"></script>
+
+
 </body>
+
 </html>

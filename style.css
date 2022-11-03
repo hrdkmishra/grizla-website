@@ -36,7 +36,7 @@ header{
     padding: 1rem 4%;
 }
 header .logo{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     color: #3D5AFF;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ header .logo span{
 }
 header .navbar a{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0.8rem;
 }
 header .navbar a:hover{
@@ -111,9 +111,9 @@ header .navbar a:hover{
 .text {
   color: white;
   position: absolute;
-  top: 120px;
-  left: 300px;
-  width: 50%;
+  top: 8rem;
+  left: 15rem;
+  width: 60%;
   text-align: center;
 }
 .text_head{
@@ -200,7 +200,7 @@ header .navbar a:hover{
     /* slider */
     .text{
         top: 170px;
-        left: 200px;
+        left: 165px;
     }
     .text_head{
         font-size: 35px;

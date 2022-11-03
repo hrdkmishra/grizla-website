@@ -198,11 +198,11 @@ header .navbar a:hover{
 
     /* slider */
     .text{
-        top: 120px;
+        top: 170px;
         left: 200px;
     }
     .text_head{
-        font-size: 40px;
+        font-size: 35px;
     }
     .aboutus_btn,.contactus_btn{
         width: 130px;
@@ -274,9 +274,19 @@ header .navbar a:hover{
 }
 
 
-/* profile */
+/*============================================= profile================================================= */
 
-.profile {
+/* team-profile */
+
+.team-profile-header{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem;
+    background: #fff;
+}
+
+.team-profile-container {
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -287,21 +297,33 @@ header .navbar a:hover{
     justify-content: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.person {
-    padding: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 0 1rem;
+
+.team-member {
+    background-color: black;
+    margin: 0 2rem;
+    padding: 0 4rem 4rem;
+    border-radius: 0.8rem;
 }
 
-.person img {
+.team-member img {
+    width: 50%;
+    border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-30px) translateX(+50px);
+    border: black 5px solid;
 }
 
-.person h2,p{
-    margin: 0.5rem 0;
+.team-member-name {
     font-size: 1.5rem;
+    font-weight: 750;
+}
+
+.team-member-role {
+    font-size: 1rem;
     font-weight: 500;
+}
+
+.team-member-name .team-member-role p,p{
+    text-align: center;
+    color: #F5F5F5;
 }

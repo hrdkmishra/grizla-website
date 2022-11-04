@@ -84,7 +84,7 @@ header .navbar a:hover{
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 70%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -109,12 +109,18 @@ header .navbar a:hover{
 
 /* Caption text */
 .text {
-  color: white;
+  /* color: white;
   position: absolute;
-  top: 120px;
-  left: 300px;
-  width: 50%;
-  text-align: center;
+  top: 8rem;
+  left: 15rem;
+  width: 60%;
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -20rem;
+  color: white;
 }
 .text_head{
     font-family: 'Work Sans', sans-serif;
@@ -172,7 +178,7 @@ header .navbar a:hover{
 .indicators{
 	position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: -60px;
     transform: translate(-50%);
     }
 .dot {
@@ -194,13 +200,20 @@ header .navbar a:hover{
 
 
 /* ==================media css========================== */
+@media(max-width:1200px){
+
+
+
+}
+
+
 @media (max-width: 820px) {
 
 
     /* slider */
     .text{
-        top: 170px;
-        left: 200px;
+        /* top: 170px;
+        left: 165px; */
     }
     .text_head{
         font-size: 35px;
@@ -225,9 +238,10 @@ header .navbar a:hover{
 
     /* slider */
     .text{
-        top: 65px;
+        /* top: 65px;
         left: 5px;
-        width: 100%;
+        width: 100%; */
+        margin-top: -15rem;
     }
     .text_head{
         font-size: 30px;
@@ -271,6 +285,7 @@ header .navbar a:hover{
         font-size: 1rem;
 
     }
+    
 
 }
 

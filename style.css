@@ -36,7 +36,7 @@ header{
     padding: 1rem 4%;
 }
 header .logo{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: #3D5AFF;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ header .logo span{
 }
 header .navbar a{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0.8rem;
 }
 header .navbar a:hover{

@@ -49,7 +49,7 @@
 
 - Put comment on your code so that it is easy to understand
 - You only need to perfom step 5 once
-- to check if which branch you are currently do
+- to check in which branch you are currently
 ```git branch```
 - dont push in the master branch
 

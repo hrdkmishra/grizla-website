@@ -5,9 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #F5F5F5;
 }
+
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0;padding: 0;
@@ -187,11 +189,8 @@ header .navbar a:hover{
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  /* background-color: #717171; */
 }
-
-
-
 
 /* ==================media css========================== */
 @media (max-width: 820px) {
@@ -296,6 +295,7 @@ header .navbar a:hover{
     background: #fff;
 }
 
+/*  */
 .team-profile-container {
     background: #fff;
     border: 1px solid #ccc;

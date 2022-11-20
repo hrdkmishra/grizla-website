@@ -21,27 +21,6 @@ body{
     --dark: #161616;
 }
 
-.fw-medium {
-    font-weight: 500 !important;
-}
-
-.fw-bold {
-    font-weight: 700 !important;
-}
-
-.fw-black {
-    font-weight: 900 !important;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-}
-
-
 /*** Button ***/
 .btn {
     font-weight: 500;
@@ -188,6 +167,7 @@ body{
     max-width: 32px;
     width: 2rem;
     height: 2rem;
+    background-color: white;
 }
 
 .close img {
@@ -219,10 +199,31 @@ body{
     z-index: 1000;
 }
 
+.tour-btn button{
+    width: 70px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #3538d8e0;
+    color: white;
+    transition: 0.5s ease-in-out;
+    border: 2px solid blue;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tour-btn button:hover{
+    background-color: white;
+    color: #2124b1;
+}
+
 .gallery-image {
     width: 90px;
     height: 80px;
 }
+
+
 
 
 /* Footer */
@@ -616,8 +617,9 @@ footer{
 
 .main-footer-copyright{
     text-align: center;
-    margin: 0px 0px;
-    padding: 10px 0px;
+    margin: 20px 0px;
+    padding: 0px;
+    padding-top: 10px;
     border-color: rgb(182, 182, 182);
     border-width: 1px 0px 0px 0px;
     border-style: solid;

@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+}
 *{
     font-family: 'Manrope', sans-serif;
     margin: 0;padding: 0;
@@ -7,10 +18,6 @@
     border: none;
     text-decoration: none;
     transition: all .2s linear;
-}
-body{
-    background-color: #F5F5F5;
-    margin-bottom: 20px;
 }
 
 .heading{
@@ -28,27 +35,26 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4%;
-    
 }
 header .logo{
     font-size: 1.5rem;
     font-weight: bolder;
     color: #3D5AFF;
     text-transform: uppercase;
-    text-decoration: none;
 }
 header .logo span{
     color: white;
 }
-header .navbar1 a{
+header .navbar a{
     color: #fff;
     font-size: 1.2rem;
     margin: 0.8rem;
-    text-decoration: none;
 }
-header .navbar1 a:hover{
+header .navbar a:hover{
     color: #3D5AFF;
 }
+
+
 #menu-bar{
     color: #fff;
     font-size: 3rem;
@@ -56,6 +62,8 @@ header .navbar1 a:hover{
     cursor: pointer;
     display: none;
 }
+
+
 /* slider */
 
 .mySlides {display: none}
@@ -72,9 +80,7 @@ header .navbar1 a:hover{
 .fade{
     transition: 0.6s;
 }
-.fade:not(.show) {
-    opacity: 1;
-}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -89,14 +95,12 @@ header .navbar1 a:hover{
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  text-decoration: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -199,7 +203,8 @@ header .navbar1 a:hover{
 .seperater2{
     margin-top: 2rem;
 
-}   
+}
+
 /*============================================= team-profile================================================= */
 .team_profile_header{
     color: black;
@@ -219,7 +224,8 @@ header .navbar1 a:hover{
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-top: -10px;
+    
+
     
 }
 .team_member_details{
@@ -243,7 +249,7 @@ header .navbar1 a:hover{
     margin-top: .8rem;
     background-color: black;
     width: 15rem;
-    height: 14rem;
+    height: 12rem;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -251,14 +257,9 @@ header .navbar1 a:hover{
     justify-content: center;
     flex-direction: column;  
 }
-.details_con h1{
-    margin-top: 1rem;
-    font-size: 25px;    
-}
 .details_con p{
-    margin-top: 0px;
+    margin-top: 10px;
 }
-
 .team_icons{
     font-size: 25px;
     margin-top: 10px;
@@ -273,6 +274,8 @@ header .navbar1 a:hover{
     align-items: center;
     font-size: 1.4rem;
 }
+
+
 
 
 
@@ -296,7 +299,7 @@ header .navbar1 a:hover{
     header .logo{
         font-size: 1.5rem;
     }
-    header .navbar1 a {
+    header .navbar a {
         font-size: 1rem;
 
     }
@@ -335,7 +338,7 @@ header .navbar1 a:hover{
         font-size: 1.5rem;
     }
 
-    header .navbar1 {
+    header .navbar {
         position: absolute;
         top: 100%;right: 0;left: 0;
         background: black;
@@ -343,12 +346,12 @@ header .navbar1 a:hover{
         padding: .1rem 2rem;
         clip-path: polygon(0 0,100% 0,100% 0,0 0);
     }
-    header .navbar1.active{
+    header .navbar.active{
         clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
     }
 
 
-    header .navbar1 a {
+    header .navbar a {
         display: block;
         border-radius: .5rem;
         padding: 0.8rem;

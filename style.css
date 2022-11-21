@@ -1,69 +1,71 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
-*{
-    font-family: 'Manrope', sans-serif;
-    margin: 0;padding: 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
 }
-body{
-    background-color: #F5F5F5;
-    margin-bottom: 20px;
-}
-
-.heading{
-    text-align: center;
-    padding: 2.5rem 0;
+body {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
 }
 
+.heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
 
-header{
-    position: fixed;
-    top:0;right: 0;left: 0;
-    background: black;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 4%;
-    
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: black;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4%;
 }
-header .logo{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: #3D5AFF;
-    text-transform: uppercase;
-    text-decoration: none;
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #3d5aff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-header .logo span{
-    color: white;
+header .logo span {
+  color: white;
 }
-header .navbar1 a{
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 0.8rem;
-    text-decoration: none;
+header .navbar1 a {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0.8rem;
+  text-decoration: none;
 }
-header .navbar1 a:hover{
-    color: #3D5AFF;
+header .navbar1 a:hover {
+  color: #3d5aff;
 }
-#menu-bar{
-    color: #fff;
-    font-size: 3rem;
-    padding: .5rem 1.2rem;
-    cursor: pointer;
-    display: none;
+#menu-bar {
+  color: #fff;
+  font-size: 3rem;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  display: none;
 }
 /* slider */
 
-.mySlides {display: none}
+.mySlides {
+  display: none;
+}
 .mySlides img {
-    vertical-align: middle;
-    height: 470px;
+  vertical-align: middle;
+  height: 470px;
 }
 /* ========================Slideshow container====================================== */
 
@@ -71,14 +73,15 @@ header .navbar1 a:hover{
   width: 100%;
   position: relative;
 }
-.fade{
-    transition: 0.6s;
+.fade {
+  transition: 0.6s;
 }
 .fade:not(.show) {
-    opacity: 1;
+  opacity: 1;
 }
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 70%;
@@ -98,12 +101,12 @@ header .navbar1 a:hover{
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -115,64 +118,62 @@ header .navbar1 a:hover{
   margin-top: -20rem;
   color: white;
 }
-.text_head{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 500;
-    display: inline-flex;
-    align-items: center;
-    font-weight:bold;
+.text_head {
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
 }
-.text_head span{
-    color: #F6A426;
-    margin-left: 20px;
+.text_head span {
+  color: #f6a426;
+  margin-left: 20px;
 }
-.slider_btn{
-    
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.slider_btn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.aboutus_btn, .contactus_btn{
-    text-decoration: none;
-    color: black;
-    background-color: #3D5AFF;
-    padding: 15px;
-    border: 2px solid #3D5AFF;
-    border-radius: 53px;
-    width: 150px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-
+.aboutus_btn,
+.contactus_btn {
+  text-decoration: none;
+  color: black;
+  background-color: #3d5aff;
+  padding: 15px;
+  border: 2px solid #3d5aff;
+  border-radius: 53px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
-.contactus_btn{
-    margin-left: 20px;
-    color: #3D5AFF;
-    background: transparent;
+.contactus_btn {
+  margin-left: 20px;
+  color: #3d5aff;
+  background: transparent;
 }
-.aboutus_btn:hover{
-    background: transparent;
-    cursor: pointer;
-    color: #3D5AFF;
+.aboutus_btn:hover {
+  background: transparent;
+  cursor: pointer;
+  color: #3d5aff;
 }
-.contactus_btn:hover{
-    background-color: #3D5AFF;
-    color: black;
+.contactus_btn:hover {
+  background-color: #3d5aff;
+  color: black;
 }
 
 /* The dots/bullets/indicators */
 
-.indicators{
-	position: absolute;
-    left: 50%;
-    bottom: -60px;
-    transform: translate(-50%);
-    }
+.indicators {
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  transform: translate(-50%);
+}
 .dot {
   cursor: pointer;
   height: 10px;
@@ -186,185 +187,237 @@ header .navbar1 a:hover{
 
 /* .active, .dot:hover {
   /* background-color: #717171; */
-.seperater, .seperater2{
-    width: 80%;
-    height: 5px;
-    background: linear-gradient(0.25turn, #3D5AFF, #F6A426);
-    margin-top: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-    border-radius: 10px;
+.seperater,
+.seperater2 {
+  width: 80%;
+  height: 5px;
+  background: linear-gradient(0.25turn, #3d5aff, #f6a426);
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  border-radius: 10px;
 }
-.seperater2{
-    margin-top: 2rem;
-
-}   
+.seperater2 {
+  margin-top: 2rem;
+}
 /*============================================= team-profile================================================= */
-.team_profile_header{
-    color: black;
-    font-size: 40px;
-    padding: 2rem;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.team_profile_header {
+  color: black;
+  font-size: 40px;
+  padding: 2rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.team_profile_header span{
-    color: #F6A426;
+.team_profile_header span {
+  color: #f6a426;
 }
-.team_membes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-top: -10px;
-    
+.team_membes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: -10px;
 }
-.team_member_details{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px;
+.team_member_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
 }
-.profile_img{
-    margin-bottom: -60px;
-    z-index: 2;
+.profile_img {
+  margin-bottom: -60px;
+  z-index: 2;
 }
-.profile_img img{
-    border: 3px solid black;
-    border-radius: 50%;
-    width: 100px;
-
+.profile_img img {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 100px;
 }
-.details_con{
-    margin-top: .8rem;
-    background-color: black;
-    width: 15rem;
-    height: 14rem;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;  
+.details_con {
+  margin-top: 0.8rem;
+  background-color: black;
+  width: 15rem;
+  height: 14rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.details_con h1{
-    margin-top: 1rem;
-    font-size: 25px;    
+.details_con h1 {
+  margin-top: 1rem;
+  font-size: 25px;
 }
-.details_con p{
-    margin-top: 0px;
+.details_con p {
+  margin-top: 0px;
 }
 
-.team_icons{
-    font-size: 25px;
-    margin-top: 10px;
+.team_icons {
+  font-size: 25px;
+  margin-top: 10px;
 }
-.fa-brands ,.fa-circle-info {
-    color: #F5F5F5;
-    padding: 0 0.3rem 0 0.3rem;
+.fa-brands,
+.fa-circle-info {
+  color: #f5f5f5;
+  padding: 0 0.3rem 0 0.3rem;
 }
-.fa-icons{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 1.4rem;
+.fa-icons {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
 }
-
-
 
 /* ==================media css========================== */
 
 @media (max-width: 820px) {
-
-
-    .seperater{
-        margin-top: 11rem;
-    }
-    .text_head{
-        font-size: 35px;
-    }
-    .aboutus_btn,.contactus_btn{
-        width: 130px;
-        height: 50px;
-        font-size: 15px;
-    }
-    /* navbar */
-    header .logo{
-        font-size: 1.5rem;
-    }
-    header .navbar1 a {
-        font-size: 1rem;
-
-    }
-
+  .seperater {
+    margin-top: 11rem;
+  }
+  .text_head {
+    font-size: 35px;
+  }
+  .aboutus_btn,
+  .contactus_btn {
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+  }
+  /* navbar */
+  header .logo {
+    font-size: 1.5rem;
+  }
+  header .navbar1 a {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 450px) {
-    .seperater{
-        margin-top: 6rem;
-    }
+  .seperater {
+    margin-top: 6rem;
+  }
 
-    /* slider */
-    .text{
-        /* top: 65px;
+  /* slider */
+  .text {
+    /* top: 65px;
         left: 5px;
         width: 100%; */
-        margin-top: -15rem;
-    }
-    .text_head{
-        font-size: 30px;
-    }
-    .mySlides img{
-        height: 330px;
-    }
+    margin-top: -15rem;
+  }
+  .text_head {
+    font-size: 30px;
+  }
+  .mySlides img {
+    height: 330px;
+  }
 
-    /* navbar */
-    header{
-        padding: .3rem 4%;
+  /* navbar */
+  header {
+    padding: 0.3rem 4%;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+  #menu-bar {
+    display: initial;
+    font-size: 1.5rem;
+  }
 
-    }
-    header .logo{
-        font-size: 1.5rem;
-    }
-    #menu-bar{
-        display: initial;
-        font-size: 1.5rem;
-    }
+  header .navbar1 {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: black;
+    border-top: 0.1rem solid white;
+    padding: 0.1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .navbar1.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 
-    header .navbar1 {
-        position: absolute;
-        top: 100%;right: 0;left: 0;
-        background: black;
-        border-top: .1rem solid white;
-        padding: .1rem 2rem;
-        clip-path: polygon(0 0,100% 0,100% 0,0 0);
-    }
-    header .navbar1.active{
-        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
-    }
+  header .navbar1 a {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    margin: 1.5rem 0;
+    background: #222;
+    font-size: 1rem;
+  }
 
+  /* team profile */
+  .team_profile_header {
+    font-size: 25px;
+  }
+  .team_membes {
+    gap: 0;
+  }
+}
 
-    header .navbar1 a {
-        display: block;
-        border-radius: .5rem;
-        padding: 0.8rem;
-        margin: 1.5rem 0;
-        background: #222;
-        font-size: 1rem;
+/* ==================why chooose us========================== */
 
-    }
-    
-    /* team profile */
-    .team_profile_header{
-        font-size: 25px;
-    }
-    .team_membes{
-        gap: 0;
-    }
+.separator {
+  height: 3px;
+  width: 70vw;
+  border-radius: 5px;
+  background-color: #f1a932;
+  border: none;
+}
 
+.why-choose-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.why-choose-us-header {
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+.why-choose-us-header span {
+  color: #f1a932;
+}
+.why-choose-us-grid {
+  width: 80%;
+  margin: 2em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.card {
+  padding: 1em 1em 1em 5em;
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  position: relative;
+  width: 60%;
+  margin-top: 4em;
+  border-radius: 20px;
+}
+.card .img {
+  border: 5px solid #000;
+  position: absolute;
+  left: -10%;
+  top: -20%;
+  height: 50%;
+  width: 20%;
+  border-radius: 50%;
+}
+.card .title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.card .main-text {
+  opacity: 0.7;
 }

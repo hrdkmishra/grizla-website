@@ -421,3 +421,131 @@ header .navbar1 a:hover {
 .card .main-text {
   opacity: 0.7;
 }
+
+
+/* abouot us */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --blue:#16a085;
+    --black:#444;
+	--blue:#0000FF;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--blue);
+}
+
+/* *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: none;
+    transition: all .2s ease-out;
+    text-decoration: none;
+} */
+/* 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+} */
+
+/* section{
+    padding:2rem 9%;
+} */
+
+section:nth-child(even){
+    background: #f5f5f5;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: none;
+    text-transform: uppercase;
+    color:var(--blue);
+    font-size: 5rem;
+    letter-spacing: .4rem;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:var(--blue);
+}
+.btn .aboutus_btn, .contactus_btn{
+    text-decoration: none;
+    color: #3D5AFF;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #3D5AFF;
+    border-radius: 53px;
+    width: 150px;
+    height: 60px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.btn .contactus_btn{
+    color: #3D5AFF;
+    background: transparent;
+}
+.btn .aboutus_btn,.contactus_btn{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+}
+.btn .aboutus_btn:hover{
+    background-color: #3D5AFF;
+    color: black;
+}
+.btn .contactus_btn:hover{
+    background-color: #3D5AFF;
+    color: black;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.about .row .content p{
+    color: var(--black);
+    padding:1rem 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.about .row .content p span{
+    color: blue;
+}
+.about .row .content p span text{
+    color: --blue;
+}
+
+
+

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "intro.js": "^6.0.0"
+    "intro.js": "^6.0.0",
+    "package.json": "^2.0.1"
   }
 }

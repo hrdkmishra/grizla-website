@@ -152,7 +152,7 @@ header .navbar1 a:hover {
   font-weight: bold;
 }
 .contactus_btn {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   color: #3d5aff;
   background: transparent;
 }
@@ -454,22 +454,22 @@ html{
     scroll-behavior: smooth;
 } */
 
-/* section{
+.about{
     padding:2rem 9%;
-} */
+}
 
-section:nth-child(even){
+.about:nth-child(even){
     background: #f5f5f5;
 }
 
 .heading{
-    text-align: center;
-    padding-bottom: 2rem;
-    text-shadow: none;
-    text-transform: uppercase;
-    color:var(--blue);
-    font-size: 5rem;
-    letter-spacing: .4rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  text-shadow: none;
+  text-transform: uppercase;
+  color:var(--blue);
+  font-size: 5rem;
+  letter-spacing: .4rem;
 }
 
 .heading span{

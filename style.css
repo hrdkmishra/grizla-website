@@ -246,7 +246,7 @@ header .navbar a:hover{
 
 }
 .details_con{
-    margin-top: .8rem;
+    margin-top: .6rem;
     background-color: black;
     width: 15rem;
     height: 12rem;
@@ -256,13 +256,19 @@ header .navbar a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;  
+    
+
+}
+.details_con h1{
+    margin-top: 2rem;
 }
 .details_con p{
     margin-top: 10px;
+    color: white;
 }
 .team_icons{
     font-size: 25px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .fa-brands ,.fa-circle-info {
     color: #F5F5F5;
@@ -275,7 +281,80 @@ header .navbar a:hover{
     font-size: 1.4rem;
 }
 
-
+/* =====================================service========================================= */
+.service_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0em 1.5em;
+  }
+  .service_column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .service_card {
+    width: 100%;
+    height: 100%;
+    /* padding: 2em 1.5em; */
+    background: linear-gradient(#ffffff 50%, #020303 50%);
+    
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(226, 138, 15, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ .service_card h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #194c35;
+    margin: 1em 0;
+  }
+  p {
+    color: #0b0a0b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    padding: 0em 1em 1em 1em;
+  }
+  .icon-wrapper {
+  
+  }
+  .icon-wrapper img{
+    width: 100%;
+    height: 200px;
+  }
+  .service_card:hover {
+    background-position: 0 100%;
+  }
+  .service_card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #8ac310;
+  }
+  .service_card:hover h3 {
+    color: #ffffff;
+  }
+  .service_card:hover p {
+    color: #f0f0f0;
+  }
+  @media screen and (min-width: 768px) {
+  
+    .service_column {
+        flex: 0 50%;
+        max-width: 50%;
+      }
+  }
+  @media screen and (min-width: 992px) {
+    
+    .service_column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+   
+  }
+  
 
 
 
@@ -368,6 +447,16 @@ header .navbar a:hover{
     .team_membes{
         gap: 0;
     }
+
+    .service_card{
+        
+     background: #020303;
+     color: white;   
+    }
+    .service_card h3,p{
+        color: white;
+    }
+    
 
 }
 

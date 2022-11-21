@@ -1,7 +1,7 @@
 // hamberger menu
 
 let menu =document.querySelector('#menu-bar');
-let navbar =document.querySelector('.navbar');
+let navbar =document.querySelector('.navbar1');
 
 
 menu.addEventListener('click',() =>{

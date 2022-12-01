@@ -270,7 +270,7 @@ header .navbar a:hover{
     font-size: 25px;
     /* margin-top: 10px; */
 }
-.fa-brands ,.fa-circle-info {
+.fa-brands ,.fa-circle-info , .fa-envelope{
     color: #F5F5F5;
     padding: 0 0.3rem 0 0.3rem;
 }
@@ -354,11 +354,135 @@ header .navbar a:hover{
     }
    
   }
+
   
+
+#chat-bot-launcher-container.chat-bot-avatar-launcher .chat-bot-launcher-button {
+    display: none;
+}
+#chat-bot-message-container{
+    display: none;
+}
+  
+.featurs_contaner{
+    position: fixed;
+    bottom: 10px;
+    right: 2rem;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end
+}
+.featurs{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.email_integration,.whatsapp_integration,.chatbot_integration{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+}
+.about_message{
+    background-color: #2d3748;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 20px;
+    /* height: 40px; */
+    border-radius: 10px;
+}
+.click_me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.click_me_message{
+    background-color: #3D5AFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 20px;
+    /* height: 40px; */
+    border-radius: 10px;
+
+    
+   
+}
+.click_me_message span{
+    color: white;
+    
+
+}
+.click_me_GT{
+    margin-left: 10px;
+    background-color: #3D5AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 13px; */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.cross_logo{
+    margin-left: 10px;
+    background-color: #3D5AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 13px; */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.click_me_GT, .cross_logo span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cross_logo {
+    display: none;
+}
+
+.featurs_contaner img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #3D5AFF;
+    margin-left: 10px;
+}
+.featurs_contaner img:hover{
+    box-shadow: 2px 4px 4px #2f2e2e;
+    translate: 2px;
+    border: 1px solid #828080;
+}
+.featurs{
+    display: none;
+}
 
 
 
 /* ==================media css========================== */
+@media(max-width:1280px){
+    .text_head{
+        font-size: 60px;
+    }
+}
 
 @media (max-width: 820px) {
 
@@ -457,6 +581,10 @@ header .navbar a:hover{
         color: white;
     }
     
+    /* featurs */
+    .click_me_message{
+        display: none;
+    }
 
 }
 

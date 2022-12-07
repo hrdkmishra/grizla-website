@@ -48,16 +48,18 @@ var slideIndex = 1;
 let gt_logo=document.querySelector('.click_me_GT');
 let featurs1=document.querySelector('.featurs');
 let cross_logo=document.querySelector('.cross_logo');
-let chat_img = document.querySelector('#chat-bot-launcher-container');
-let chat_msg=document.querySelector('#chat-bot-message-container')
+let chatbot=document.getElementById('#chat-bot-launcher-container');
+
+
+
+
 
 
 gt_logo.addEventListener('click',()=>{
   featurs1.style.display='block';
   gt_logo.style.display='none';
   cross_logo.style.display='flex';
-  chat_img.style.display="flex";
-  chat_msg.style.display="flex";
+  chatbot.style.display="flex";
   
 })
 cross_logo.addEventListener('click',()=>{

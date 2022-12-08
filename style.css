@@ -377,96 +377,138 @@ header .navbar1 a:hover{
     font-family: 'Manrope',sans-serif;
     box-sizing: border-box;
 }
-.about{
-    width: 100%;
-    padding: 78px 0px;
-    background-color: #191919;
+.about {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: #191919;
 }
 .heading {
-    text-align: center;
-    font-size: 3.5rem;
-    padding: 1rem;
-    color: black
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1rem;
+  color: black;
 }
 
 .heading span {
-    color: rgb(240, 151, 69);
+  color: rgb(240, 151, 69);
 }
 
-.about img{
-    height: 500px;
-    width: 500px;
+.about img {
+  height: 500px;
+  width: 500px;
 }
-.about .about-text{
-    width: 550px;
+.about .about-text {
+  width: 550px;
+  justify-items:center;
 }
 .about-text p {
-    color: white;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 1rem;
-    position:relative;
-    
-    margin-bottom: 45px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 1rem;
+  position: relative;
+
+  margin-bottom: 45px;
 }
-.main{
-    background-color: #191919;
-    width: 1130px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.main {
+  background-color: #191919;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about-text text{
-    color: white;
-    font-size: 8vw;   //80px
-    text-transform: capitalize;
+.about-text text {
+  color: white;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  font-size: 5px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+#icons {
+  text-align:center;
+  padding-top:15px;
+}
+.linked{
+  margin-left:80px;
+}
+.slider_btn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus_btn,
+.contactus_btn {
+  text-decoration: none;
+  color: black;
+  background-color: #3d5aff;
+  padding: 15px;
+  border: 2px solid #3d5aff;
+  border-radius: 53px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.contactus_btn {
+  margin-left: 20px;
+  color: #3d5aff;
+  background: transparent;
+}
+.aboutus_btn:hover {
+  background: transparent;
+  cursor: pointer;
+  color: #3d5aff;
+}
+.contactus_btn:hover {
+  background-color: #3d5aff;
+  color: black;
+}
+@media (max-width: 850px) {
+  #opt {
+    display: none;
+  }
+}
+/* media for phone */
+@media (max-width: 500px) {
+  .about {
+    padding: 1rem;
+  }
+  .about img {
+    height: 300px;
+    width: 300px;
+  }
+  .about .about-text {
+    width: 100%;
+  }
+  .about-text p {
+    font-size: 0.9rem;
+  }
+  .about-text text {
+    font-size: 2rem;
+  }
+  .about-text h5 {
+    font-size: 2rem;
+  }
+  .about-text p {
     margin-bottom: 20px;
+  }
+  .about-text h5 {
+    margin-bottom: 20px;
+  }
 }
-.about-text h5{
-    color: white;
-    font-size: 25px;
-    text-transform: capitalize;
-    margin-bottom: 25px;
-    letter-spacing: 2px;
+  
+@-ms-viewport {
+  width: device-width;
 }
-.slider_btn{
     
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.aboutus_btn, .contactus_btn{
-    text-decoration: none;
-    color: black;
-    background-color: #3D5AFF;
-    padding: 15px;
-    border: 2px solid #3D5AFF;
-    border-radius: 53px;
-    width: 150px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-
-}
-.contactus_btn{
-    margin-left: 20px;
-    color: #3D5AFF;
-    background: transparent;
-}
-.aboutus_btn:hover{
-    background: transparent;
-    cursor: pointer;
-    color: #3D5AFF;
-}
-.contactus_btn:hover{
-    background-color: #3D5AFF;
-    color: black;
-}
-
-

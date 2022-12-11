@@ -1062,7 +1062,7 @@ footer {
   flex-direction: column;
   background: url(../images/footer.png) center center no-repeat;
   background-size: contain;
-  background-color: #06283d;
+  background-color: black;
   margin-bottom: -20px;
 }
 

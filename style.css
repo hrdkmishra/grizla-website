@@ -356,7 +356,7 @@ header .navbar a:hover {
     display: flex; 
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 1rem;
+    margin-bottom: .1rem;
 
 }
 .email_integration,.whatsapp_integration,.chatbot_integration{
@@ -1517,11 +1517,13 @@ font-size: 1rem;
   opacity: 0;
 }
 
-@media only screen and (max-device-width: 667px), screen and (max-width: 450px){
-  #chat-bot-message-container #chat-bot-message-close {
+
+#chat-bot-message-close {
     opacity: 0;
+    display: none;
 }
-}
+
 #chat-bot-message-container #chat-bot-message-close {
   opacity: 0;
 }
+

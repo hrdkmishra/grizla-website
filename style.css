@@ -502,6 +502,7 @@ header .navbar a:hover {
 }
 .featurs{
   margin-bottom: .1rem;
+  margin-right: -1rem;
 }
 
   .seperater {
@@ -525,6 +526,7 @@ header .navbar a:hover {
     height: 360px;
   }
 
+  
   /* navbar */
   header {
     padding: 0.3rem 4%;
@@ -1285,7 +1287,7 @@ footer {
 }
 .exist_as{
 font-weight: 500;
-font-size: 1.8rem;
+font-size: 1rem;
 }
 .heading span {
   color: rgb(240, 151, 69);
@@ -1475,6 +1477,9 @@ font-size: 1.8rem;
     .card .title{
         font-size: 1.2rem;
     }
+    .heading{
+      font-size: 2.5rem;
+    }
   } 
   
 
@@ -1512,3 +1517,11 @@ font-size: 1.8rem;
   opacity: 0;
 }
 
+@media only screen and (max-device-width: 667px), screen and (max-width: 450px){
+  #chat-bot-message-container #chat-bot-message-close {
+    opacity: 0;
+}
+}
+#chat-bot-message-container #chat-bot-message-close {
+  opacity: 0;
+}

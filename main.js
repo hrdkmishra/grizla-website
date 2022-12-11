@@ -8,7 +8,7 @@ function ongoing_active(){
     var first=document.querySelector(".first");
     first.classList.add("disable_css")
     second.classList.add('active');
-    alert("No projects in ongoing");
+   
 }
 
 function complete_active(){

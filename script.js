@@ -43,12 +43,14 @@ var slideIndex = 1;
           dots[slideIndex - 1].className += " active";
         }
 
+        const interval= setInterval(function(){ plusSlides(1);},5000);
+
 // featurs
 
 let gt_logo=document.querySelector('.click_me_GT');
 let featurs1=document.querySelector('.featurs');
 let cross_logo=document.querySelector('.cross_logo');
-let chatbot=document.getElementById('#chat-bot-launcher-container');
+let chick_me_msg =document.querySelector('.click_me_message');
 
 
 
@@ -59,13 +61,15 @@ gt_logo.addEventListener('click',()=>{
   featurs1.style.display='block';
   gt_logo.style.display='none';
   cross_logo.style.display='flex';
-  chatbot.style.display="flex";
+  chick_me_msg.style.display='none';
   
 })
 cross_logo.addEventListener('click',()=>{
   featurs1.style.display='none';
   gt_logo.style.display='flex';
   cross_logo.style.display='none';
+  chick_me_msg.style.display="flex";
+  
  
 
 })
